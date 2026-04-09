@@ -1,56 +1,54 @@
-# Hi, I'm Amir 👋  
+# hey, i'm amir 👋
 
-🚀 Electrical & Computer Engineering student  
-💻 Interested in AI, Embedded Systems, and Software Engineering  
-🌍 Based in Canada  
+i build systems where code actually controls something in the real world.
+
+mainly interested in embedded systems, control, and making things work reliably — not just once.
 
 ---
 
-## 🚗 Autonomous Vehicle System
+## 🚗 autonomous vehicle system  
 🔗 https://github.com/Meechron/Autonomous-Vehicle-Driving-System  
 
-Designed and implemented an embedded autonomous driving system using Raspberry Pi and real-time sensor data.
+i built a small-scale autonomous driving system running on raspberry pi.
 
-**Core features:**
-- Lane following using grayscale sensors  
-- Obstacle avoidance using ultrasonic sensing  
-- Traffic sign detection (Coral TPU acceleration)  
-- Modular architecture (Controller, Navigator, SignHandler)  
+it processes sensor input in real time and controls the vehicle through a modular pipeline:
+sensing → decision → actuation
 
-**Tech stack:**  
-Python • Raspberry Pi • Edge AI • Sensor Fusion • Control Systems  
+what it does:
+- lane following using grayscale sensors  
+- obstacle avoidance with ultrasonic sensing  
+- traffic sign handling (stop, yield, etc.)  
+- navigation logic across a mapped environment  
 
----
+the system is split into modules (controller, lane follower, navigator, sign handler), so each part can be tested and improved independently.
 
-## 🌐 Portfolio
-🔗 https://meechron.github.io/portfolio-website/  
-
-A curated collection of my projects, combining engineering, design, and digital systems.  
-Includes work in software, architecture, and product thinking.
+big focus was making it **reliable**, not just “working once”.
 
 ---
 
-## 🧠 What I'm focused on
-- Building real-world engineering systems (not just theory)
-- Learning AI + embedded integration  
-- Developing scalable and structured software architectures  
+## 🧠 how i approach systems
+
+- separate sensing / logic / control cleanly  
+- design for debugging (not guessing)  
+- handle edge cases, not just ideal scenarios  
+- if it’s not consistent → it’s not finished  
 
 ---
 
-## 🛠 Tech & Tools
-- **Languages:** Python, Java, C  
-- **Engineering:** Embedded Systems, Control Systems  
-- **Tools:** Git, Raspberry Pi, Linux  
-- **Other:** ArchiCAD, Rhino, Canva  
+## 🛠 stack
+
+- python  
+- raspberry pi + sensors  
+- linux / git  
 
 ---
 
-## 📈 Current Goal
-Building strong projects to break into top engineering companies  
-(BMW, Microsoft, AI/Robotics roles)
+## 🌐 portfolio
+
+https://meechron.github.io/portfolio-website/
 
 ---
 
-## 🤝 Let's connect
-- Portfolio: https://meechron.github.io/portfolio-website/  
-- GitHub: https://github.com/Meechron  
+## 🎯 right now
+
+trying to build more systems at this level — where software meets hardware and has to perform in real conditions.
