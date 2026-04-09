@@ -1,45 +1,28 @@
 # hey, i'm amir 👋
 
-i build systems where code actually controls something in the real world.
+i like building things that actually *do something* — not just code that sits in a repo.
 
-mainly interested in embedded systems, control, and making things work reliably — not just once.
-
----
-
-## 🚗 autonomous vehicle system  
-🔗 https://github.com/Meechron/Autonomous-Vehicle-Driving-System  
-
-i built a small-scale autonomous driving system running on raspberry pi.
-
-it processes sensor input in real time and controls the vehicle through a modular pipeline:
-sensing → decision → actuation
-
-what it does:
-- lane following using grayscale sensors  
-- obstacle avoidance with ultrasonic sensing  
-- traffic sign handling (stop, yield, etc.)  
-- navigation logic across a mapped environment  
-
-the system is split into modules (controller, lane follower, navigator, sign handler), so each part can be tested and improved independently.
-
-big focus was making it **reliable**, not just “working once”.
+mostly into embedded systems, control, and anything where software meets hardware.
 
 ---
 
-## 🧠 how i approach systems
+## 🧩 stuff i've worked on
 
-- separate sensing / logic / control cleanly  
-- design for debugging (not guessing)  
-- handle edge cases, not just ideal scenarios  
-- if it’s not consistent → it’s not finished  
+- autonomous vehicle system (runs on raspberry pi, real-time decisions)
+- hardware + automation projects (sensors, control logic, system integration)
+- some software-side things like data processing and small systems
+
+i try to keep things modular and actually understandable — not just “it works somehow”.
 
 ---
 
-## 🛠 stack
+## 🛠 what i usually use
 
 - python  
-- raspberry pi + sensors  
-- linux / git  
+- raspberry pi / microcontrollers  
+- linux + git  
+
+and whatever else the project needs
 
 ---
 
@@ -51,4 +34,11 @@ https://meechron.github.io/portfolio-website/
 
 ## 🎯 right now
 
-trying to build more systems at this level — where software meets hardware and has to perform in real conditions.
+working on building more solid, real-world projects  
+and getting better at designing systems that are clean and reliable
+
+---
+
+## 🤝 if you're here
+
+feel free to check out my projects or reach out
